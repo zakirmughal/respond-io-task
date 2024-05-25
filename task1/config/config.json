@@ -1,0 +1,25 @@
+{
+  "server": {
+    "port": 3099
+  },
+  "fb":{
+    "baseURL": "https://graph.facebook.com",
+    "apiVersion": "v20.0",
+    "pageId": "YOUR-PAGE_ID",
+    "pageAccessToken": "YOUR-PAGE-ACCESS",
+    "token": "YOUR-TOKEN"
+  },
+  "redis":{
+    "host": "YOUR-CONNECTION-STRING",
+    "port": 11562,
+    "username": "default",
+    "password": "YOUR-PASSWORD",
+    "dbname": "YOUR_DB-NAME"
+  },
+  "sendgrid": {
+    "host": "https://api.sendgrid.com/v3/",
+    "apiKeyID": "YOUR-API-KEY-ID",
+    "apiKey": "YOUR-API-KEY"
+  },
+  "adminEmail": "YOUR-EMAIL"
+}
